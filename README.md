@@ -3,7 +3,7 @@
 A very simple shell script for extracting RPM packages.
 
 ##Usage
-openrpm <filename.rpm> 
+openrpm \<filename.rpm\> 
 
 
 ###Considerations
