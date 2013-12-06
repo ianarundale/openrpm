@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# @description openrpm, a simple shell script for opening RPM packages to the current directory
+# Usage: openrpm <rpm file name>
+# @author Ian Arundale 2012
+
 echo "Opening RPM $1";
 rpm2cpio $1 | cpio -idmv
 rpm -qip $1
